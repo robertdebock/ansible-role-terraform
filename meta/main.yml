@@ -1,0 +1,33 @@
+---
+galaxy_info:
+  author: Robert de Bock
+  description: Provides terraform for your system.
+  license: Apache License, Version 2.0
+  min_ansible_version: 2.3
+  min_ansible_container_version: 0.2.0
+
+  platforms:
+    - name: Alpine
+      versions:
+        - 3.7
+    - name: Debian
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - artful
+        - bionic
+
+  galaxy_tags:
+    - terraform
+    - Alpine
+    - CentOS
+    - Debian
+    - Fedora
+    - RHEL
+    - Ubuntu
+
+dependencies: []

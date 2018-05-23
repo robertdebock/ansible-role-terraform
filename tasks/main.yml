@@ -1,0 +1,9 @@
+---
+# tasks file for terraform
+- name: download and install software
+  unarchive:
+    src: https://releases.hashicorp.com/terraform/{{ terraform_version }}/terraform_{{ terraform_version }}_linux_amd64.zip
+    dest: /usr/bin
+    mode: 0755
+    owner: root
+    group: root

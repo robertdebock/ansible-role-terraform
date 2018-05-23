@@ -1,0 +1,22 @@
+---
+dependency:
+  name: galaxy
+  options:
+    role-file: requirements.yml
+driver:
+  name: docker
+lint:
+  name: yamllint
+platforms:
+  - name: terraform-opensuse-42.3
+    image: opensuse:42.3
+provisioner:
+  name: ansible
+  lint:
+    name: ansible-lint
+scenario:
+  name: opensuse-42.3
+verifier:
+  name: goss
+  lint:
+    name: yamllint

@@ -11,4 +11,3 @@
   register: download_terraform
   until: download_terraform is succeeded
   retries: 3
-

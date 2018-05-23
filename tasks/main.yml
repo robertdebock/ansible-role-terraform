@@ -8,3 +8,7 @@
     mode: 0755
     owner: root
     group: root
+  register: download_terraform
+  until: download_terraform is succeeded
+  retries: 3
+

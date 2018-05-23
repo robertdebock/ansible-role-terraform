@@ -8,7 +8,7 @@
 
 - name: set permissions on terraform
   file:
-    path: /usr/bin/teraform
+    path: /usr/bin/terraform
     mode: 0755
     owner: root
     group: root

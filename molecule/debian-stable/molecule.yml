@@ -8,14 +8,14 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: terraform-alpine-3.6
-    image: alpine:3.6
+  - name: terraform-debian-stable
+    image: debian:stable
 provisioner:
   name: ansible
   lint:
     name: ansible-lint
 scenario:
-  name: alpine-3.6
+  name: debian-stable
 verifier:
   name: goss
   lint:

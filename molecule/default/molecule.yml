@@ -1,0 +1,50 @@
+---
+dependency:
+  name: galaxy
+  options:
+    role-file: requirements.yml
+driver:
+  name: docker
+lint:
+  name: yamllint
+platforms:
+  - name: terraform-alpine-edge
+    image: alpine:edge
+    command: sh -c "while true ; do sleep 1 ; done"
+  - name: terraform-alpine-latest
+    image: alpine:latest
+    command: sh -c "while true ; do sleep 1 ; done"
+  - name: terraform-archlinux
+    image: base/archlinux
+  - name: terraform-centos-6
+    image: centos:6
+  - name: terraform-centos-latest
+    image: centos:latest
+  - name: terraform-debian-latest
+    image: debian:latest
+  - name: terraform-debian-stable
+    image: debian:stable
+  - name: terraform-debian-unstable
+    image: debian:unstable
+  - name: terraform-fedora-latest
+    image: fedora:latest
+  - name: terraform-fedora-rawhide
+    image: fedora:rawhide
+  - name: terraform-opensuse-leap
+    image: opensuse:leap
+  - name: terraform-opensuse-tumbleweed
+    image: opensuse:tumbleweed
+  - name: terraform-ubuntu-artful
+    image: ubuntu:artful
+  - name: terraform-ubuntu-devel
+    image: ubuntu:devel
+provisioner:
+  name: ansible
+  lint:
+    name: ansible-lint
+scenario:
+  name: default
+verifier:
+  name: goss
+  lint:
+    name: yamllint

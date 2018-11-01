@@ -5,5 +5,5 @@
   gather_facts: false
 
   roles:
-    - role: robertdebock.bootstrap
-    - role: ansible-role-terraform
+    - robertdebock.bootstrap
+    - ansible-role-terraform

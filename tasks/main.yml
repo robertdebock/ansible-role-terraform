@@ -2,7 +2,7 @@
 # tasks file for terraform
 - name: download and install software
   unarchive:
-    src: "https://releases.hashicorp.com/terraform/{{ terraform_version }}/terraform_{{ terraform_version }}_linux_amd64.zip"
+    src: "{{ terraform_unarchive_src }}"
     dest: /usr/bin
     remote_src: yes
     mode: 0755

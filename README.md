@@ -3,8 +3,7 @@ terraform
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-terraform.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-terraform)
 
-Installs terraform for your system.
-
+The purpose of this role is to install and configure terraform on your system.
 
 Example Playbook
 ----------------

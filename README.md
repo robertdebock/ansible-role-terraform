@@ -31,7 +31,7 @@ These variables are set in `defaults/main.yml`:
 # defaults file for terraform
 
 # The version of Terraform to install.
-terraform_version: 0.11.10
+terraform_version: 0.11.11
 
 ```
 

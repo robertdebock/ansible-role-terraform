@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: terraform-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: terraform-ubuntu-artful
-    image: ubuntu:artful
+  - name: terraform-ubuntu-latest
+    image: ubuntu:latest
+  - name: terraform-ubuntu-rolling
+    image: ubuntu:rolling
   - name: terraform-ubuntu-devel
     image: ubuntu:devel
   - name: terraform-ubuntu-latest

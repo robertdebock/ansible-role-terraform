@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: terraform-opensuse-leap
     image: opensuse:leap
-  - name: terraform-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: terraform-ubuntu-latest
     image: ubuntu:latest
   - name: terraform-ubuntu-rolling

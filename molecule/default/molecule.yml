@@ -25,9 +25,6 @@ platforms:
   - name: terraform-centos-latest
     image: centos:latest
     pre_build_image: yes
-  - name: terraform-debian-latest
-    image: debian:latest
-    pre_build_image: yes
   - name: terraform-debian-stable
     image: debian:stable
     pre_build_image: yes

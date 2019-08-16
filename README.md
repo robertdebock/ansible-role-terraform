@@ -93,10 +93,13 @@ This role has been tested against the following distributions and Ansible versio
 
 A single star means the build may fail, it's marked as an experimental build.
 
-Upstream version(s)
+Included version(s)
 -------------------
 
-This role [refers to a version](https://github.com/robertdebock/ansible-role-terraform/blob/master/defaults/main.yml) of [terraform](https://www.terraform.io/downloads.html).
+This role [refers to a version](https://github.com/robertdebock/ansible-role-terraform/blob/master/defaults/main.yml) released by HashiCorp. Check the released version(s) here:
+- [terraform](https://www.terraform.io/downloads.html).
+
+This version reference means a role may get outdated. Monthly tests occur to see if [bit-rot](https://en.wikipedia.org/wiki/Software_rot) occured. If you however find a problem, please create an issue, I'll get on it as soon as possible.
 
 Testing
 -------

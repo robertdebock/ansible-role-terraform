@@ -39,6 +39,5 @@ galaxy_info:
     - terraform
     - centos
     - rhel
-    - ubuntu
 
 dependencies: []

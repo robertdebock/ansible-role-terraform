@@ -37,7 +37,6 @@ galaxy_info:
 
   galaxy_tags:
     - terraform
-    - alpine
     - centos
     - debian
     - fedora

@@ -38,7 +38,6 @@ galaxy_info:
   galaxy_tags:
     - terraform
     - centos
-    - debian
     - fedora
     - rhel
     - ubuntu

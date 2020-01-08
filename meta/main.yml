@@ -30,7 +30,6 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - trusty
-        - artful
 
   galaxy_tags:
     - terraform

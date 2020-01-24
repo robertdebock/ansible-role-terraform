@@ -29,7 +29,7 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - trusty
+        - bionic
 
   galaxy_tags:
     - terraform

@@ -84,7 +84,7 @@ Here is an overview of related roles:
 
 ## Compatibility
 
-This role has been tested on these [container images](https://hub.docker.com/):
+This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
 
 |container|tags|
 |---------|----|
@@ -93,8 +93,7 @@ This role has been tested on these [container images](https://hub.docker.com/):
 |el|7, 8|
 |debian|buster, bullseye|
 |fedora|31, 32|
-|opensuse|all|
-|ubuntu|focal, bionic|
+|ubuntu|focal|
 
 The minimum version of Ansible required is 2.8 but tests have been done to:
 

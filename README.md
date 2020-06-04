@@ -2,9 +2,9 @@
 
 Install and configure terraform on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-terraform.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-terraform)|[![github](https://github.com/robertdebock/ansible-role-terraform/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-terraform/actions)|[![quality](https://img.shields.io/ansible/quality/25776)](https://galaxy.ansible.com/robertdebock/terraform)|[![downloads](https://img.shields.io/ansible/role/d/25776)](https://galaxy.ansible.com/robertdebock/terraform)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-terraform.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-terraform)|[![github](https://github.com/robertdebock/ansible-role-terraform/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-terraform/actions)|[![quality](https://img.shields.io/ansible/quality/25776)](https://galaxy.ansible.com/robertdebock/terraform)|[![downloads](https://img.shields.io/ansible/role/d/25776)](https://galaxy.ansible.com/robertdebock/terraform)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-terraform.svg)](https://github.com/robertdebock/ansible-role-terraform/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -70,8 +70,8 @@ The following roles can be installed to ensure all requirements are met, using `
 ```yaml
 ---
 - robertdebock.bootstrap
-- robertdebock.core_dependencies
 - robertdebock.ca_certificates
+- robertdebock.core_dependencies
 
 ```
 

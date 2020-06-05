@@ -5,7 +5,7 @@
     src: "{{ terraform_unarchive_src }}"
     dest: /usr/bin
     remote_src: yes
-    mode: 0755
+    mode: "755"
     owner: root
     group: root
   register: terraform_download_terraform

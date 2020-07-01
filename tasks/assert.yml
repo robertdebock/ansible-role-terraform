@@ -1,0 +1,6 @@
+---
+- name: test if terraform_version is set correctly
+  assert:
+    that:
+      - terraform_version is defined
+      - terraform_version | length > 0

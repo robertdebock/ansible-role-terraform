@@ -11,6 +11,3 @@
     mode: "755"
     owner: root
     group: root
-  register: terraform_download_terraform
-  until: terraform_download_terraform is succeeded
-  retries: 3

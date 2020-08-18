@@ -4,3 +4,4 @@
     that:
       - terraform_version is defined
       - terraform_version | length > 0
+  quiet: yes

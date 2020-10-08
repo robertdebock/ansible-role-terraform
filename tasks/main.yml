@@ -6,7 +6,7 @@
 - name: download and install software
   unarchive:
     src: "{{ terraform_unarchive_src }}"
-    dest: /usr/bin
+    dest: "{{ terraform_destination }}"
     remote_src: yes
     mode: "755"
     owner: root

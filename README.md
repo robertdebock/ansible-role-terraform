@@ -43,8 +43,8 @@ For verification `molecule/resources/verify.yml` runs after the role has been ap
   gather_facts: no
 
   tasks:
-    - name: check if connection still works
-      ping:
+    - name: run terraform --version
+      command: terraform --version
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -57,7 +57,7 @@ These variables are set in `defaults/main.yml`:
 # defaults file for terraform
 
 # The version of Terraform to install.
-terraform_version: 0.12.28
+terraform_version: 0.13.4
 ```
 
 ## [Requirements](#requirements)

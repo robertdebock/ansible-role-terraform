@@ -44,7 +44,7 @@ For verification `molecule/resources/verify.yml` runs after the role has been ap
 
   tasks:
     - name: run terraform --version
-      command: terraform --version
+      command: /usr/local/bin/terraform --version
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -58,6 +58,9 @@ These variables are set in `defaults/main.yml`:
 
 # The version of Terraform to install.
 terraform_version: 0.13.4
+
+# Where to place the binary.
+terraform_destination: /usr/local/bin
 ```
 
 ## [Requirements](#requirements)

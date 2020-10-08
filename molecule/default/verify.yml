@@ -6,4 +6,4 @@
 
   tasks:
     - name: run terraform --version
-      command: terraform --version
+      command: /usr/local/bin/terraform --version

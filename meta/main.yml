@@ -33,7 +33,6 @@ galaxy_info:
       versions:
         - focal
         - bionic
-        - xenial
 
   galaxy_tags:
     - terraform

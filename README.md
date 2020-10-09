@@ -97,7 +97,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |debian|buster, bullseye|
 |fedora|31, 32|
 |opensuse|all|
-|ubuntu|focal, bionic, xenial|
+|ubuntu|focal, bionic|
 
 The minimum version of Ansible required is 2.9, tests have been done to:
 
@@ -105,6 +105,13 @@ The minimum version of Ansible required is 2.9, tests have been done to:
 - The current version.
 - The development version.
 
+## [Exceptions](#exceptions)
+
+Some variarations of the build matrix do not work. These are the variations and reasons why the build won't work:
+
+| variation                 | reason                 |
+|---------------------------|------------------------|
+| ubuntu:xenial | Not idempotent on: download and install software |
 
 ## [Included version(s)](#included-versions)
 

@@ -36,7 +36,5 @@ galaxy_info:
 
   galaxy_tags:
     - terraform
-    - centos
-    - redhat
 
 dependencies: []

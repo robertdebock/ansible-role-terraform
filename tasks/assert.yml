@@ -1,4 +1,5 @@
 ---
+
 - name: test if terraform_version is set correctly
   assert:
     that:

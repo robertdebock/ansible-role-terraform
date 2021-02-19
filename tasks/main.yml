@@ -7,7 +7,7 @@
   delegate_to: localhost
 
 - name: download and install software
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ terraform_unarchive_src }}"
     dest: "{{ terraform_destination }}"
     remote_src: yes

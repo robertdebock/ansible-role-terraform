@@ -6,4 +6,5 @@
 
   tasks:
     - name: run terraform --version
-      command: /usr/local/bin/terraform --version
+      ansible.builtin.command:
+        cmd: /usr/local/bin/terraform --version

@@ -52,7 +52,7 @@ terraform_version: "1.0.11"
 # Where to place the binary.
 terraform_destination: /usr/local/bin
 
-# Network mirror can be overridden.
+# Terraform binary mirror:
 terraform_software_mirror: releases.hashicorp.com
 ```
 

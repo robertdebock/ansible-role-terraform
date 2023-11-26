@@ -1,4 +1,4 @@
-# Ansible role [terraform](#terraform)
+# [Ansible role terraform](#terraform)
 
 Install and configure terraform on your system.
 

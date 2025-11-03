@@ -5,4 +5,4 @@
 repository:
   description: Install and configure terraform on your system.
   homepage: https://robertdebock.nl/
-  topics: terraform, development, ansible, molecule, tox, playbook
+  topics: terraform, development, ansible, molecule, playbook
